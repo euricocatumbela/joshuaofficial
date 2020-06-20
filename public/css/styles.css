@@ -1,0 +1,462 @@
+html {
+  min-height: 100%;
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  font-size: 25px;
+  background: #212c4f;
+}
+
+.Hero {
+  background-image: url("/photos/capetown.jpg");
+  height: 910px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  /* new */
+  /* margin-left: 10%;
+  display: inline-block; */
+}
+.HeroGroup {
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 150px 50px;
+  text-align: center;
+}
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  letter-spacing: 5px;
+  background-color: white;
+}
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
+}
+
+.footer-padding {
+  padding-bottom: 60px;
+}
+
+.footer {
+  padding-top: auto;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  background: rgb(22, 31, 61);
+}
+
+.footer p {
+  margin-top: 25px;
+  font-size: 15px;
+  color: #ffff;
+}
+.footer a {
+  font-size: 16px;
+  color: #5334f5;
+  font-weight: 600;
+}
+
+.footer h6 {
+  color: white;
+  font-weight: 600;
+}
+
+.footer div {
+  font-weight: 600;
+  color: white;
+  line-height: 2.8;
+}
+
+.Hero p {
+  margin-bottom: 22px;
+  font-size: 28px;
+  text-align: center;
+  font-weight: 700;
+  background: linear-gradient(156.9deg, #14f1d9 0%, #3672f8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* new */
+  border-right: 4px solid #fff;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 10s steps(27) forwards, blink-caret 0.8s step-end infinite;
+  animation-iteration-count: infinite;
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #fff;
+  }
+}
+@keyframes typing {
+  0% {
+    width: 0%;
+  }
+  30% {
+    width: 100%;
+  }
+  80% {
+    width: 100%;
+  }
+  90% {
+    width: 0%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+.Hero h1 {
+  font-size: 60px;
+  display: inline-block;
+  margin-top: 20%;
+  margin-left: 10%;
+  /* text-shadow: -2px -2px 4px #000; */
+}
+
+h1 {
+  margin-bottom: 22px;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+  background: linear-gradient(156.9deg, #14f1d9 0%, #3672f8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+p {
+  color: white;
+}
+
+/* Old Css Styles sheet ************************************* */
+
+.container-fluid {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 18%;
+  padding-bottom: 28%;
+  padding-right: 1%;
+  padding-left: 1%;
+  color: #fff;
+}
+
+.wrapper {
+  box-shadow: 0 0 20px rgba(72, 94, 196, 0.7);
+}
+
+.wrapper > * {
+  padding: 1em;
+}
+
+.company-info h4 {
+  text-align: center;
+  font-size: 18px;
+}
+
+.company-info h4 {
+  text-align: center;
+  line-height: 30px;
+}
+
+.contact form label {
+  display: block;
+}
+.contact form p {
+  margin: 0;
+  color: #fff;
+}
+
+.contact form button {
+  width: 40%;
+  height: 15%;
+  border: 0;
+  outline: 0;
+}
+
+#navbar-main {
+  min-height: 66px;
+  background: #000;
+}
+.navbar-brand-logo {
+  width: 25.5rem;
+  height: 3.5rem;
+}
+
+p {
+  color: white;
+  background: linear-gradient(
+    104.74deg,
+    rgb(198, 208, 235) 0%,
+    rgb(198, 208, 235) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  color: white;
+}
+
+.h2-color {
+  background: linear-gradient(
+    104.74deg,
+    rgb(176, 30, 255) 0%,
+    rgb(225, 70, 124) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.p-size {
+  color: #000;
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  line-height: 20px;
+  margin: auto;
+}
+.button-cs {
+  background-color: red;
+}
+
+.color-h2 {
+  font-family: "Merriweather", serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.color-h3 {
+  margin-bottom: 22px;
+  font-family: "Merriweather", serif;
+  line-height: 1;
+  background: linear-gradient(
+    104.74deg,
+    rgb(176, 30, 255) 0%,
+    rgb(225, 70, 124) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+  font-weight: 700;
+}
+.main-color {
+  font-family: "Merriweather", serif;
+}
+.color-h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 80px;
+}
+
+/* navigation bar  */
+.bg-dark {
+  background-color: rgb(0, 0, 0) !important;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  /* padding is used for spacing */
+  color: #fff;
+  padding: 0 18px;
+}
+.nav-link {
+  /* Size of the item for nav bar */
+  display: block;
+  color: #fff;
+  font-size: 1rem;
+  font-family: "Ubuntu";
+}
+
+.download-button {
+  /* Specification of the button
+   */
+  margin: 5% 3% 5% 0%;
+}
+.image-rotate {
+  width: 200%;
+  background-size: cover;
+  transform: rotate(0);
+}
+
+#features {
+  padding: 8% 15%;
+  background-color: #212c4f;
+}
+.kit {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 20px;
+  border-radius: 12px;
+  color: white;
+  padding-bottom: 28px;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+.icon {
+  color: #dbff3d;
+  margin: 1rem;
+}
+.icon:hover {
+  color: yellow;
+}
+.lovely-icone {
+  color: yellow;
+}
+.lovely-icone:hover {
+  color: #dbff3d;
+}
+.image-testemonial {
+  width: 2%;
+  /* border-radius: 100%; */
+  margin: 20px;
+}
+.carousel-item {
+  padding: 8% 15%;
+}
+
+/* Pricings */
+#pricing {
+  padding: 100px;
+  text-align: center;
+  background-color: #212c4f;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#pricing_2 {
+  margin: 0px 0 850px 0;
+  padding: 100px;
+  text-align: center;
+  background-color: #212c4f;
+}
+.pricing-column_2 {
+  padding: 3% 2%;
+}
+
+/* Testimonials */
+#testimonials {
+  /* padding: 7% top and botton 15% left and right  */
+  text-align: center;
+  background-color: #212c4f;
+  color: #000;
+}
+#press {
+  background-color: #ffffff;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-log {
+  width: 8%;
+  margin: 20px 20px 50px;
+}
+
+.press-log1 {
+  width: 15%;
+  color: white;
+}
+.social-icon {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: "Chela+One";
+  font-size: 40px;
+}
+
+.lfd {
+  font-size: 20px;
+  color: #fff;
+  font-family: inherit;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .image-rotate {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+
+/* New Update */
+
+.HeroService p {
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#s1 {
+  padding: 8% 15%;
+  background-color: #212c4f;
+}
+#s2 {
+  padding: 8% 15%;
+  background-color: #212c4f;
+}
+
+#Partners {
+  margin: 0px 0 220px 0;
+  background-color: #ffffff;
+  text-align: center;
+  padding-bottom: 18%;
+}
+
+#s3 {
+  margin: 0px 0 220px 0;
+  padding: 15% 3%;
+  background-color: #212c4f;
+}
+#s3 .about {
+  margin: 0 auto;
+  width: 850px;
+  height: 500px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 10px 20px;
+  border-radius: 12px;
+  color: white;
+}
+
+.about p {
+  text-align: center;
+  line-height: 1.5;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  background: linear-gradient(
+    104.74deg,
+    rgb(198, 208, 235) 0%,
+    rgb(198, 208, 235) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
